@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Project | Basketball ScoreCard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <!-- HOME  -->
+            <div class="home">
+                <h1>HOME</h1>
+                <p id="hScore" class="font72">0</p>
+                <div class="btn">
+                    <button onclick="hadd1()">+1</button>
+                    <button onclick="hadd2()">+2</button>
+                    <button onclick="hadd3()">+3</button>
+                </div>
+            </div>
+            <!-- GUEST  -->
+            <div class="guest">
+                <h1>GUEST</h1>
+                <p id="gScore" class="font72">0</p>
+                <div class="btn">
+                    <button onclick="gadd1()">+1</button>
+                    <button onclick="gadd2()">+2</button>
+                    <button onclick="gadd3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="resetBtn" onclick="resetScore()">RESET</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

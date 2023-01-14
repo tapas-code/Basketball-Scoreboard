@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "ScoreCardFont";
+    src: url(fonts/cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 480px;
+    height: 280px;
+    border: 2px solid black;
+    margin: 0 auto;
+    color: #EEEEEE;
+    background-color: #1B244A;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.home, .guest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font72{
+    font-family: 'ScoreCardFont';
+    color: red;
+    font-size: 72px;
+    margin: 0;
+    padding-top: 16px;
+}
+.squarebg{
+    background-color: black;
+}
+.btn{
+    margin-top: 16px;
+}
+p{
+    text-align: center;
+    width: -webkit-fill-available;
+    background-color: black;
+}
+h1{
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+#resetBtn{
+    width: 100px;
+    margin: 0 auto;
+}
+button{
+    border: 2px solid #9aabd8;
+    background-color: transparent;
+    color: #9aabd8;
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+    /* transition: box-shadow 0.3s ease-in-out; */
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
